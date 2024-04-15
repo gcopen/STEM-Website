@@ -1,0 +1,82 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
+
+#date {
+  font-size: 20px;
+  color: blue;
+  text-align:top;
+  border:1;
+}
+h1 {text-align: center;
+  } 
+div.container {
+  width: 100%;
+  border: 2px solid black;
+}
+div.box {
+  box-sizing: border-box;
+  width: 50%;
+  border: 1px solid hotpink;
+  float: left;
+}
+
+
+.w3r-dot {
+  width: 99%;
+  height: 99%;
+  background-color: #1ae055;
+  background-image: radial-gradient(#e637d2 10%, transparent 11%),
+    radial-gradient(#fcf8f8 10%, transparent 11%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+}
+h2{ width: 200px;
+border: 1px solid black;
+   margin-right: 95px;
+  }
+h3 {
+  width: 200px;
+  border: 1px solid black;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+  background: #dd24eb
+}
+h4 {
+  width: 200px;
+  border: 5px solid black;
+  float: right;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  background: #dd24eb
+}
+h5 {
+  width: 200px;
+  border: 5px solid black;
+  float: right;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  background: #dd24eb
+}
+form{
+  float: center;
+  text-align: top;
+}
