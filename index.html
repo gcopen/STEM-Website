@@ -21,6 +21,32 @@
   Ms. Copen
   </h1>
 
+  <table>
+  <thead id="myHeader">
+    <tr>
+      <th colspan="4">Subjects taught in Elementary STEM</th>
+    </tr>
+  </thead>
+
+  <tr>
+    <td>
+      <h2>Quarter 1 -Coding </h2>
+    </td>
+
+    <td>
+      <h2> Quarter 2-Lego Engineering</h2>
+    </td>
+    <td>
+      <h2>Quarter 3-Engineering Design Process</h2>
+    </td>
+    <td>
+      <h2>Quarter 4-Engineering/Makerspace</h2>
+    </td>
+  </tr>
+  
+  
+ 
+    
   <div class="container">
     <div class="box"><h2>Academic Vocabulary</h2>
       <ol type="I"> 
@@ -29,9 +55,9 @@
         <li>Algorithm</li>
         <li> EDP</li>
       </ol></div>
-    <div class="box">  <img src="unpluggedcoding.jpg" alt="coding" style = "width:100px; height: 100px;"> <br>
+    <div class="box">  <img src="unplugged coding.jpg" alt="unplugged coding" style = "width:100px; height: 100px;"> <br>
        <img src="animalsresearch.jpg" alt= "animal" style = "width:150px; height: 100px;"> <br>
-       <img src="bridge.jpg" alt="animal" style = "width:150px; height: 100px;"></div>
+       <img src="bridge.jpg" alt="bridge" style = "width:150px; height: 100px;"></div>
     <div style="clear:both;"></div>
   </div>
  
@@ -68,7 +94,7 @@
     document.write ("Your age in seconds:"+ ageInSeconds+"<br>")
   </script></h5>
   <h4> Important Links <br>
-  <a href="http://www.code.org"> <img src = "code.org" alt = "code" style = "width:75px; height: 75px;"></a> <br>
+  <a href="http://www.code.org"><img src = "code.jpeg" alt = "code"  style = "width:75px; height: 75px;"> </a> <br>
   <a href="http://www.scratch.mit.edu"><img src = scratch.png alt = "scratch" style = "width:75px; height: 75px;"> </a> 
   <a href="http://www.tynker.com">
     <img src = tynker.jpeg alt = "tynker" style = "width:75px; height: 75px;"> </a>
@@ -86,7 +112,21 @@
  <input type="reset" name="reset" value="Reset">
 
   </form>
- 
+  <form>
+    <h6 class="city"><label for="like">What would you like to learn about in STEM Class?</label></h6><br>
+    Type your answer here:
+    <input type="text" id="like" name="like" size="50"><br><br>
+
+ <button onclick="myFunction()">Submit</button>
+    <p id="demo"></p>
+
+    <script>
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "Thank you!";
+      }
+    </script>
+
+  </form>
 
   <script src="script.js"></script>
 </body>
